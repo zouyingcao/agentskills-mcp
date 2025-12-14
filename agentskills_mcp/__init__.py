@@ -27,4 +27,4 @@ __all__ = [
 ]
 
 # Library version. Keep in sync with the project metadata.
-__version__ = "0.1.0"
+__version__ = "0.1.1"

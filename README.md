@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://pypi.org/project/agentskills-mcp/"><img src="https://img.shields.io/badge/python-3.10+-blue" alt="Python Version"></a>
-  <a href="https://pypi.org/project/agentskills-mcp/"><img src="https://img.shields.io/pypi/v/agentskills-mcp.svg?logo=pypi" alt="PyPI Version"></a>
+  <a href="https://pypi.org/project/mcp-agentskills/"><img src="https://img.shields.io/badge/python-3.10+-blue" alt="Python Version"></a>
+  <a href="https://pypi.org/project/mcp-agentskills/"><img src="https://img.shields.io/pypi/v/mcp-agentskills.svg?logo=pypi" alt="PyPI Version"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-black" alt="License"></a>
   <a href="https://github.com/zouyingcao/agentskills-mcp"><img src="https://img.shields.io/github/stars/zouyingcao/agentskills-mcp?style=social" alt="GitHub Stars"></a>
 </p>
@@ -24,14 +24,14 @@ It implements the **Progressive Disclosure** architecture proposed in Anthropic�
 
 ### 💡 Why Choose AgentSkills MCP?
 
-- ✅ **Zero-Code Configuration**: one-command install (`pip install agentskills-mcp`)
+- ✅ **Zero-Code Configuration**: one-command install (`pip install mcp-agentskills`)
 - ✅ **Out-of-the-Box**: uses official Skill format and fully compatible with [Anthropic’s Agent Skills](https://github.com/anthropics/skills)
 - ✅ **MCP Support**: multiple transports (stdio/SSE/HTTP), works with any MCP-compatible agent<!-- - ✅ **Progressive Disclosure**: smart context loading, minimal overhead until skills are needed -->
 - ✅ **Flexible Skill Path**: custom skill directories with automatic detection, parsing, and loading
 
 ## 🔥 Latest Updates
 
-- [2025-12] 🎉 Released agentskills-mcp v0.1.0
+- [2025-12] 🎉 Released mcp-agentskills v0.1.1
 
 ## 🚀 Quick Start
 
@@ -40,13 +40,13 @@ It implements the **Progressive Disclosure** architecture proposed in Anthropic�
 Install AgentSkills MCP with pip:
 
 ```bash
-pip install agentskills-mcp
+pip install mcp-agentskills
 ```
 
 Or with uv:
 
 ```bash
-uv pip install agentskills-mcp
+uv pip install mcp-agentskills
 ```
 
 <details>

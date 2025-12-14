@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "agentskills-mcp"
+name = "mcp-agentskills"
 dynamic = ["version"]
 description = "An MCP server for bringing Anthropic's Agent Skills to any MCP-compatible agent."
 authors = [

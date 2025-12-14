@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-  <a href="https://pypi.org/project/agentskills-mcp/"><img src="https://img.shields.io/badge/python-3.10+-blue" alt="Python Version"></a>
-  <a href="https://pypi.org/project/agentskills-mcp/"><img src="https://img.shields.io/pypi/v/agentskills-mcp.svg?logo=pypi" alt="PyPI Version"></a>
+  <a href="https://pypi.org/project/mcp-agentskills/"><img src="https://img.shields.io/badge/python-3.10+-blue" alt="Python Version"></a>
+  <a href="https://pypi.org/project/mcp-agentskills/"><img src="https://img.shields.io/pypi/v/mcp-agentskills.svg?logo=pypi" alt="PyPI Version"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-black" alt="License"></a>
   <a href="https://github.com/zouyingcao/agentskills-mcp"><img src="https://img.shields.io/github/stars/zouyingcao/agentskills-mcp?style=social" alt="GitHub Stars"></a>
 </p>
@@ -26,7 +26,7 @@ AgentSkills MCP基于[FlowLLM](https://github.com/flowllm-ai/flowllm)框架，�
 
 ### 💡 为什么选择AgentSkills MCP?
 
-- ✅ **零代码配置**：一键安装(``pip install agentskills-mcp`` 或 ``uv pip install agentskills-mcp``)
+- ✅ **零代码配置**：一键安装(``pip install mcp-agentskills`` 或 ``uv pip install mcp-agentskills``)
 - ✅ **开箱即用**: 面向官方Skill格式设计，完全兼容[Anthropic的Agent Skills](https://github.com/anthropics/skills)
 - ✅ **MCP支持**：多种传输方式（stdio/SSE/HTTP），适配任何支持MCP的Agent
 - ✅ **智能识别**：兼容扁平与分层Skill目录，并自动检测、解析与加载
@@ -34,7 +34,7 @@ AgentSkills MCP基于[FlowLLM](https://github.com/flowllm-ai/flowllm)框架，�
 
 ## 🔥 最新动态
 
-- **[2025-12]** 🎉 发布 agentskills-mcp v0.1.0
+- **[2025-12]** 🎉 发布 mcp-agentskills v0.1.0
 
 
 ## 🚀 快速开始
@@ -43,13 +43,13 @@ AgentSkills MCP基于[FlowLLM](https://github.com/flowllm-ai/flowllm)框架，�
 使用 pip 安装 AgentSkills MCP：
 
 ```bash
-pip install agentskills-mcp
+pip install mcp-agentskills
 ```
 
 或使用 uv：
 
 ```bash
-uv pip install agentskills-mcp
+uv pip install mcp-agentskills
 ```
 
 <details>
