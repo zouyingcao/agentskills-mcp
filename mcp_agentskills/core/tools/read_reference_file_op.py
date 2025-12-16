@@ -2,7 +2,7 @@
 
 This module provides the ReadReferenceFileOp class which allows reading
 reference files (e.g., forms.md, reference.md, ooxml.md) from skill directories.
-The skill directory is read from {service_config.metadata["skill_dir"]} / 
+The skill directory is read from {service_config.metadata["skill_dir"]} /
 {skill_name}. If the file is not found, an error message is returned.
 """
 
@@ -83,7 +83,7 @@ class ReadReferenceFileOp(BaseAsyncToolOp):
         """Execute the read reference file operation.
 
         Reads a reference file from the specified skill directory. The method
-        gets the skill directory from {service_config.metadata["skill_dir"]} / 
+        gets the skill directory from {service_config.metadata["skill_dir"]} /
         {skill_name}, constructs the file path, and reads the file content if it
         exists.
 

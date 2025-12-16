@@ -75,7 +75,7 @@ class LoadSkillOp(BaseAsyncToolOp):
         """Execute the load skill operation.
 
         Loads the SKILL.md file content for the specified skill name. The
-        method gets the skill directory from {service_config.metadata["skill_dir"]} / 
+        method gets the skill directory from {service_config.metadata["skill_dir"]} /
         {skill_name}, reads the SKILL.md file, and extracts the instructions
         content (excluding YAML frontmatter if present).
 

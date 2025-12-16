@@ -102,9 +102,11 @@ class SkillAgent:
             messages = [
                 Message(
                     role=Role.SYSTEM,
-                    content=self.prompt.render({
-                        "time":now_time,
-                    }),
+                    content=self.prompt.render(
+                        {
+                            "time": now_time,
+                        },
+                    ),
                 ),
                 Message(role=Role.USER, content=query),
             ]

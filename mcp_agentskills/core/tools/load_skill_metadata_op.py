@@ -3,14 +3,14 @@
 This module provides the LoadSkillMetadataOp class which scans the skills
 directory recursively and extracts metadata (name and description) from all
 SKILL.md files. The metadata is parsed from YAML frontmatter in each SKILL.md
-file and returned a string in the format: 
+file and returned a string in the format:
     ```
     Available skills (each line is "- <skill_name>: <skill_description>"):\n
     - <skill_name_1>: <skill_description_1>\n
     - <skill_name_2>: <skill_description_2>\n
     ...
     - <skill_name_n>: <skill_description_n>\n
-    ``` 
+    ```
 This string can be used to display all available skills.
 """
 
@@ -134,7 +134,7 @@ class LoadSkillMetadataOp(BaseAsyncToolOp):
         """Execute the load skill metadata operation.
 
         Scans the skills directory recursively for all SKILL.md files,
-        extracts their metadata from YAML frontmatter, and constructs 
+        extracts their metadata from YAML frontmatter, and constructs
         a string to display the name and descriptions of all available skills.
 
         The method:
@@ -145,13 +145,13 @@ class LoadSkillMetadataOp(BaseAsyncToolOp):
         5. Sets the output with the complete metadata string
 
         Returns:
-            None: The result is set via `self.set_output()` with a string 
+            None: The result is set via `self.set_output()` with a string
                 in the format:
                 "Available skills (each line is "- <skill_name>: <skill_description>"):\n
                 - <skill_name_1>: <skill_description_1>\n
                 - <skill_name_2>: <skill_description_2>\n
                 ...
-                - <skill_name_n>: <skill_description_n>\n" 
+                - <skill_name_n>: <skill_description_n>\n"
 
         Note:
             Only skills with valid metadata (both name and description) are

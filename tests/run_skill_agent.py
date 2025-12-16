@@ -13,7 +13,7 @@ async def main():
 
     # Run the ReAct loop with Agent Skills.
     query = (
-        "Fill /Users/caozouying/Documents/code/agentskills-mcp/tests/Sample-Fillable-PDF.pdf with: name='Alice Johnson'select first choice from dropdown, "
+        "Fill /abosulte/path/to/Sample-Fillable-PDF.pdf with: name='Alice Johnson'select first choice from dropdown, "
         "check options 1 and 3, dependent name='Bob Johnson', age='12'. Save as filled-sample.pdf"
     )
     messages = await agent.run(query)

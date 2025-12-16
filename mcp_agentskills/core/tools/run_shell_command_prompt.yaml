@@ -1,20 +1,20 @@
 tool_desc: |
   Run shell command in a subprocess.
-  
+
   REQUIREMENTS:
   1. You MUST fill in skill_name parameter, which is used to construct target_dir = {skill_dir}/<skill_name>
   2. EVERY command MUST start with: "cd {skill_dir}/<skill_name> && "
   3. Use ONLY relative paths (relative to target_dir) in subsequent commands
   4. Do NOT use absolute paths or skip the cd command
-  
+
   CORRECT FORMAT:
   cd {skill_dir}/<skill_name> && python scripts/<script_name>.py
-  cd {skill_dir}/<skill_name> && ls -la 
-  
+  cd {skill_dir}/<skill_name> && ls -la
+
   WRONG FORMAT (DO NOT DO THIS):
   python scripts/xxx.py  # ❌ Missing cd command
   python /absolute/path/to/script.py  # ❌ Using absolute path
-  
+
   OUTPUT FILE HANDLING:
   - If a script create new files inside target_dir, move them to the current directory: mv <filename> <current_dir>.
   - Avoid leaving temporary files in target_dir; so remember to remove them if not used.
@@ -22,13 +22,13 @@ tool_desc: |
 
 tool_desc_zh: |
   在子进程中运行 shell 命令。
-  
+
   需求：
   1. 你必须填写 skill_name 参数，该参数用于构造 target_dir = {skill_dir}/<skill_name>
   2. 每条命令必须以："cd {skill_dir}/<skill_name> && " 开头
   3. 只能使用相对路径（相对于 target_dir）进行后续命令
   4. 不要使用绝对路径或跳过 cd 命令
-  
+
   正确格式：
   cd {skill_dir}/<skill_name> && python scripts/<script_name>.py
   cd {skill_dir}/<skill_name> && ls -la

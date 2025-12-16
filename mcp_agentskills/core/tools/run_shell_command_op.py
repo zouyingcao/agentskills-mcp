@@ -86,7 +86,7 @@ class RunShellCommandOp(BaseAsyncToolOp):
             **{
                 "name": "run_shell_command",
                 "description": self.get_prompt("tool_desc").format(
-                    skill_dir=Path(C.service_config.metadata["skill_dir"]).resolve()
+                    skill_dir=Path(C.service_config.metadata["skill_dir"]).resolve(),
                 ),
                 "input_schema": {
                     "skill_name": {
@@ -143,7 +143,7 @@ class RunShellCommandOp(BaseAsyncToolOp):
         # Extract skill name and command from input parameters
         skill_name = self.input_dict["skill_name"]
         command: str = self.input_dict["command"]
-        
+
         skill_dir = Path(C.service_config.metadata["skill_dir"]).resolve()
         logger.info(f"🔧 run shell command: skill_name={skill_name} skill_dir={skill_dir} command={command}")
 
